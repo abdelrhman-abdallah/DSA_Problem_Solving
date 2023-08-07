@@ -31,7 +31,7 @@ Sort and Two Pointers Solution:
 - If equal to the target value, return it.
 - Time complexity: O(N log N), space complexity: O(1).
 
-- Hashtable Solution (Recommended):
+Hashtable Solution (Recommended):
 
 - Use a hashtable (dictionary) to store seen elements.
 - Loop through the array once.
