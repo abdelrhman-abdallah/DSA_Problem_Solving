@@ -20,7 +20,7 @@ Sequential Element Detection:
   - If not, continue the loop.
   - Stop looping when the pointer exceeds the length of the sequence array or when the loop completes.
 
-- If the pointer equals the length of the sequence array then it is a sub sequence of the input array, else it isnot
+- If the pointer equals the length of the sequence array then it is a sub sequence of the input array, else it isn't
 - This Solution has a Time Complexity of Big O (N) where N is the Length of the input array.
 - This Solution has Space COmplexity of Big O (1) because we didn't use any auxilary space in relation to N.
 
