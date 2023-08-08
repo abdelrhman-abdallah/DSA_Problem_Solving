@@ -1,4 +1,4 @@
-# Short Into:
+# Short Intro:
 
 this problem wants to find the first two numbers that when added together result in a given value.
 
