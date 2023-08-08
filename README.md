@@ -1,42 +1,27 @@
-# DSA_Problem_Solving
+# Short Intro
 
-Welcome to the Coding Interview Problem-Solving Guide repository! This resource is designed to assist both individuals preparing for coding interviews and those looking to enhance their problem-solving skills. Whether you're a seasoned programmer or just starting out, this repository aims to provide a comprehensive collection of coding problems, solutions, and explanations to help you excel in technical interviews.
+This Problem wants to find out if the sequence inside the given array exists inside of a bigger given array, so validate that the sequence given is a subsequnce inside the bigger array.
 
-# Table of Contents
-Introduction
-How to Use This Repository
-Problem Categories
-Contributing
+For Example:
 
-# Introduction
-As I am Currently trying to learn DSA and solve as many problems as I can, And as a strong beliver in the Feynman's Technique or explaining something in order to better understand it, I made this repo in order to acheive that and alos benefit anyone who is trying to start with problem solving and DSA as i was in the same shoes as him ^_^ 
+input array = [5,1,22,23,6,-1,7,10]
+sequence = [1,6,-1,10]
 
-# How to Use This Repository
-This repository is organized into different sections to facilitate your learning and practice:
+# Simple walk through:
 
-Each Branch will have start with the Problem Category, and then the problem name.
-Each Branch will have a read me file explaning that problem and a .txt file having the problem code solution,
-Problems will be solved in C#, if anyone wants to add another solution with another langauge he is more than welcomed to do so.
-If Anyone has a better solution or want to fix anything, you are more than welcomed in doing so ^_^ .
+Sequential Element Detection:
 
-# Problem Categories
-The problems are categorized to cover a wide range of topics often encountered in coding interviews, including but not limited to:
+- Loop through the input array once.
+- Maintain a pointer pointing at the start of the sequence array.
+- For each iteration:
 
-Arrays and Strings
-Linked Lists
-Stacks and Queues
-Trees and Graphs
-Sorting and Searching
-Dynamic Programming
-Recursion and Backtracking
-Greedy Algorithms
+  - Check if the value at the pointer matches an element inside the input array.
+  - If it matches, increment the pointer to move through the sequence.
+  - If not, continue the loop.
+  - Stop looping when the pointer exceeds the length of the sequence array or when the loop completes.
 
-…and more!
+- If the pointer equals the length of the sequence array then it is a sub sequence of the input array, else it isnot
+- This Solution has a Time Complexity of Big O (N) where N is the Length of the input array.
+- This Solution has Space COmplexity of Big O (1) because we didn't use any auxilary space in relation to N.
 
-# Contributing
-Contributions to this repository are highly encouraged! If you have a new problem, solution, or explanation to add, or if you've identified an error in an existing problem's solution, please follow the guidelines outlined in the Contributing Guidelines. Your contributions will help make this resource even more valuable to the coding community.
-
-Feedback and Support
-If you have any questions, suggestions, or feedback regarding this repository, feel free to open an issue or reach out . Your input is crucial in improving and expanding this resource to better serve the coding interview preparation community.
-
-Happy coding and best of luck with your coding interviews!
+  This approach aims to detect a sequential sequence of elements within the input array by iterating through it only once. The pointer helps track the progress within the sequence, and each step ensures that the corresponding element is found in the input array. This method is efficient as it reduces unnecessary comparisons and avoids redundant iterations.
