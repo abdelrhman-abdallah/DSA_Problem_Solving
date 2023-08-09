@@ -1,27 +1,33 @@
 # Short Intro
 
-This Problem wants to find out if the sequence inside the given array exists inside of a bigger given array, so validate that the sequence given is a subsequnce inside the bigger array.
+This Problem wants to take in an array of integers (positive or negative) and that array is sorted in ascending order, and it wants us to square the entire array (each element is squared) and that squared array must also be sorted in ascending order.
 
 For Example:
 
-input array = [5,1,22,23,6,-1,7,10]
-sequence = [1,6,-1,10]
+input array = [1,2,3,5,6,8,9]
+result = [1,4,9,25,36,64,81]
 
 # Simple walk through:
 
-Sequential Element Detection:
+- Main Challenge:
 
-- Loop through the input array once.
-- Maintain a pointer pointing at the start of the sequence array.
-- For each iteration:
+The primary challenge of this problem arises from the fact that even when the input numbers are sorted in ascending order, their squares may not follow the same order due to the presence of negative numbers.
 
-  - Check if the value at the pointer matches an element inside the input array.
-  - If it matches, increment the pointer to move through the sequence.
-  - If not, continue the loop.
-  - Stop looping when the pointer exceeds the length of the sequence array or when the loop completes.
+- Simple Solution - Squaring and Sorting:
 
-- If the pointer equals the length of the sequence array then it is a sub sequence of the input array, else it isnot
-- This Solution has a Time Complexity of Big O (N) where N is the Length of the input array.
-- This Solution has Space COmplexity of Big O (1) because we didn't use any auxilary space in relation to N.
+  - Loop through the input array.
+  - Square each element and append it to a result array.
+  - Perform an ascending sort on the result array.
+  - Even with efficient sorting techniques like MergeSort or QuickSort, the time complexity remains O(N log(N)), where N is the length of the input array and the space complexity Big O (N).
 
-  This approach aims to detect a sequential sequence of elements within the input array by iterating through it only once. The pointer helps track the progress within the sequence, and each step ensures that the corresponding element is found in the input array. This method is efficient as it reduces unnecessary comparisons and avoids redundant iterations.
+- Optimized Solution - Linear Time Complexity:
+
+  - To achieve linear time complexity, a better approach involves finding the positions of elements before squaring them.
+  - Utilize two pointers, one at the start and one at the end of the input array.
+  - Compare the absolute values of the elements pointed to by the two pointers.
+  - If the absolute value of the element at the start is greater, increment the start Pointer, square it and insert the squared value at the end of the result array
+  - If the absolute value of the element at the end is greater, square it and insert the squared value at the end of the result array; then decrement the end pointer.
+  - Continue this process until both pointers meet.
+  - The time complexity is Big O (N) and the space complexity Big O (N)
+
+This approach correctly describes the process of squaring the values and inserting them into the result array while maintaining the sorted order. The insertion at the end of the result array ensures that the largest squared values accumulate toward the end, resulting in a properly sorted array. The time complexity of this approach remains O(N), where N is the length of the input array.

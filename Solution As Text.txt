@@ -1,26 +1,29 @@
 using System;
 using System.Collections.Generic;
 
-public class Program 
-{
-	public static bool IsValidSubsequence(List<int> array, List<int> sequence) 
-    {
-        int j =0;
-        for(int i=0;i<array.Count;i++)
+
+public class Program {
+
+	public List<int> SortedSquaredArray(int[] array) {
+        List<int> outputArray = new List<int>();
+        int positionStart = 0;
+        int positionEnd = array.Length-1;
+		while(positionStart <= positionEnd)
         {
-            if(j< sequence.Count && array[i] == sequence[j])
-            { 
-                j++;
-            }
-            else
-            {
-                continue;
+            int minValCurrently = array[positionStart];
+            int maxValCurrently = array[positionEnd];
+            if(Math.Abs(maxValCurrently)>Math.Abs(minValCurrently)){
+                positionEnd --;
+                maxValCurrently *= maxValCurrently;
+                outputArray.Insert(0,maxValCurrently);
+                
+            }else{
+                positionStart ++;
+                minValCurrently *= minValCurrently;
+                outputArray.Insert(0,minValCurrently);
             }
         }
-        if(j == sequence.Count)
-        {
-            return true;
-        }
-		return false;
+		return outputArray;
 	}
 }
+
