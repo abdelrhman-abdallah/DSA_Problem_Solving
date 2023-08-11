@@ -14,8 +14,8 @@ As I am Currently trying to learn DSA and solve as many problems as I can, And a
 # How to Use This Repository
 This repository is organized into different sections to facilitate your learning and practice:
 
-Each Branch will have start with the Problem Category, and then the problem name.
-Each Branch will have a read me file explaning that problem and a .txt file having the problem code solution,
+Each Folder will have start with the Problem Category, and then the problem name.
+Each Folder will have a read me file explaning that problem and a .txt file having the problem code solution,
 Problems will be solved in C#, if anyone wants to add another solution with another langauge he is more than welcomed to do so.
 If Anyone has a better solution or want to fix anything, you are more than welcomed in doing so ^_^ .
 
