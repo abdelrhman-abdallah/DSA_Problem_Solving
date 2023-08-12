@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+
+
+public class Program {
+
+	public List<int> SortedSquaredArray(int[] array) {
+        List<int> outputArray = new List<int>();
+        int positionStart = 0;
+        int positionEnd = array.Length-1;
+		while(positionStart <= positionEnd)
+        {
+            int minValCurrently = array[positionStart];
+            int maxValCurrently = array[positionEnd];
+            if(Math.Abs(maxValCurrently)>Math.Abs(minValCurrently)){
+                positionEnd --;
+                maxValCurrently *= maxValCurrently;
+                outputArray.Insert(0,maxValCurrently);
+                
+            }else{
+                positionStart ++;
+                minValCurrently *= minValCurrently;
+                outputArray.Insert(0,minValCurrently);
+            }
+        }
+		return outputArray;
+	}
+}
+
