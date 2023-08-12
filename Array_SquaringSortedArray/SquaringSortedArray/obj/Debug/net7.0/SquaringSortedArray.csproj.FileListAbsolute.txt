@@ -1,0 +1,15 @@
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\bin\Debug\net7.0\SquaringSortedArray.exe
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\bin\Debug\net7.0\SquaringSortedArray.deps.json
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\bin\Debug\net7.0\SquaringSortedArray.runtimeconfig.json
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\bin\Debug\net7.0\SquaringSortedArray.dll
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\bin\Debug\net7.0\SquaringSortedArray.pdb
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\obj\Debug\net7.0\SquaringSortedArray.csproj.AssemblyReference.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\obj\Debug\net7.0\SquaringSortedArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\obj\Debug\net7.0\SquaringSortedArray.AssemblyInfoInputs.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\obj\Debug\net7.0\SquaringSortedArray.AssemblyInfo.cs
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\obj\Debug\net7.0\SquaringSortedArray.csproj.CoreCompileInputs.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\obj\Debug\net7.0\SquaringSortedArray.dll
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\obj\Debug\net7.0\refint\SquaringSortedArray.dll
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\obj\Debug\net7.0\SquaringSortedArray.pdb
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\obj\Debug\net7.0\SquaringSortedArray.genruntimeconfig.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\SquaringSortedArray\obj\Debug\net7.0\ref\SquaringSortedArray.dll
