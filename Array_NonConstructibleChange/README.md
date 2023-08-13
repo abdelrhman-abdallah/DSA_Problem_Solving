@@ -11,13 +11,13 @@ answer = 20
 
 - Basic Thoughts and Brainstorming:
 
-- If the given array is empty, the least amount of change we can't produce is 1.
-- If we Find that the first element - supposing that the Coins Array is Sorted Ascendingly - isn't 1, then we return 1.
-- So we sort the Coins Array in ascending order:
-
-  - Check if the first value in the Coins array is greater than 1:
-    - If yes, return 1.
-    - If no, proceed with further analysis.
+  - If the given array is empty, the least amount of change we can't produce is 1.
+  - If we Find that the first element - supposing that the Coins Array is Sorted Ascendingly - isn't 1, then we return 1.
+  - So we sort the Coins Array in ascending order:
+  
+    - Check if the first value in the Coins array is greater than 1:
+      - If yes, return 1.
+      - If no, proceed with further analysis.
 
 - Analysis of Coin Array:
 
