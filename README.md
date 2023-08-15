@@ -9,7 +9,7 @@ Problem Categories
 Contributing
 
 # Introduction
-As I am Currently trying to learn DSA and solve as many problems as I can, And as a strong beliver in the Feynman's Technique or explaining something in order to better understand it, I made this repo in order to acheive that and alos benefit anyone who is trying to start with problem solving and DSA as i was in the same shoes as him ^_^ 
+As I am Currently trying to learn DSA and solve as many problems as I can, And as a strong beliver in the Feynman's Technique or explaining something in order to better understand it, I made this repo in order to acheive that and also help anyone who is trying to start with problem solving and DSA as i was in the same shoes as him ^_^ 
 
 # How to Use This Repository
 This repository is organized into different sections to facilitate your learning and practice:
