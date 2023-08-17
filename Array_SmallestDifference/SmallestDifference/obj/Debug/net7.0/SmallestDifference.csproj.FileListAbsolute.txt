@@ -1,0 +1,15 @@
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\bin\Debug\net7.0\SmallestDifference.exe
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\bin\Debug\net7.0\SmallestDifference.deps.json
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\bin\Debug\net7.0\SmallestDifference.runtimeconfig.json
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\bin\Debug\net7.0\SmallestDifference.dll
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\bin\Debug\net7.0\SmallestDifference.pdb
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\obj\Debug\net7.0\SmallestDifference.csproj.AssemblyReference.cache
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\obj\Debug\net7.0\SmallestDifference.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\obj\Debug\net7.0\SmallestDifference.AssemblyInfoInputs.cache
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\obj\Debug\net7.0\SmallestDifference.AssemblyInfo.cs
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\obj\Debug\net7.0\SmallestDifference.csproj.CoreCompileInputs.cache
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\obj\Debug\net7.0\SmallestDifference.dll
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\obj\Debug\net7.0\refint\SmallestDifference.dll
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\obj\Debug\net7.0\SmallestDifference.pdb
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\obj\Debug\net7.0\SmallestDifference.genruntimeconfig.cache
+D:\Program Files\Array_NonConstructibleChange\SmallestDifference\obj\Debug\net7.0\ref\SmallestDifference.dll
