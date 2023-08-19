@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+
+public class Program {
+	public static List<int> MoveElementToEnd(List<int> array, int toMove) {
+        int strtIndx = 0;
+        int endIndx = array.Count-1;
+        bool loopFlag = true;
+        while(loopFlag && array.Count !=0){
+            int strtNum = array[strtIndx];
+            int lstNum = array[endIndx];
+            if(lstNum != toMove && strtNum == toMove ){
+                int temp = array[endIndx];
+                array[endIndx] = toMove;
+                array[strtIndx] = temp;
+                strtIndx +=1;
+                endIndx -=1;
+            }else if(strtNum != toMove){
+                strtIndx +=1;
+            }else if(lstNum == toMove){
+                endIndx -=1;
+            }
+            if(strtIndx >= endIndx){
+                loopFlag = false;
+            }
+        }
+		return array;
+	}
+}

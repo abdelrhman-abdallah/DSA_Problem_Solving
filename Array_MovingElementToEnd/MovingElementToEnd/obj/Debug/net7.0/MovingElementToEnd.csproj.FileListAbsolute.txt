@@ -1,0 +1,15 @@
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\bin\Debug\net7.0\MovingElementToEnd.exe
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\bin\Debug\net7.0\MovingElementToEnd.deps.json
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\bin\Debug\net7.0\MovingElementToEnd.runtimeconfig.json
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\bin\Debug\net7.0\MovingElementToEnd.dll
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\bin\Debug\net7.0\MovingElementToEnd.pdb
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\obj\Debug\net7.0\MovingElementToEnd.csproj.AssemblyReference.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\obj\Debug\net7.0\MovingElementToEnd.GeneratedMSBuildEditorConfig.editorconfig
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\obj\Debug\net7.0\MovingElementToEnd.AssemblyInfoInputs.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\obj\Debug\net7.0\MovingElementToEnd.AssemblyInfo.cs
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\obj\Debug\net7.0\MovingElementToEnd.csproj.CoreCompileInputs.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\obj\Debug\net7.0\MovingElementToEnd.dll
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\obj\Debug\net7.0\refint\MovingElementToEnd.dll
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\obj\Debug\net7.0\MovingElementToEnd.pdb
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\obj\Debug\net7.0\MovingElementToEnd.genruntimeconfig.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_MovingElementToEnd\MovingElementToEnd\obj\Debug\net7.0\ref\MovingElementToEnd.dll
