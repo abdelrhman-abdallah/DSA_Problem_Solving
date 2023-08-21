@@ -1,0 +1,15 @@
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\bin\Debug\net7.0\IsMonotonic.exe
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\bin\Debug\net7.0\IsMonotonic.deps.json
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\bin\Debug\net7.0\IsMonotonic.runtimeconfig.json
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\bin\Debug\net7.0\IsMonotonic.dll
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\bin\Debug\net7.0\IsMonotonic.pdb
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\obj\Debug\net7.0\IsMonotonic.csproj.AssemblyReference.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\obj\Debug\net7.0\IsMonotonic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\obj\Debug\net7.0\IsMonotonic.AssemblyInfoInputs.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\obj\Debug\net7.0\IsMonotonic.AssemblyInfo.cs
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\obj\Debug\net7.0\IsMonotonic.csproj.CoreCompileInputs.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\obj\Debug\net7.0\IsMonotonic.dll
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\obj\Debug\net7.0\refint\IsMonotonic.dll
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\obj\Debug\net7.0\IsMonotonic.pdb
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\obj\Debug\net7.0\IsMonotonic.genruntimeconfig.cache
+D:\Problem Solving Repo\DSA_Problem_Solving\Array_IsMonotonic\IsMonotonic\obj\Debug\net7.0\ref\IsMonotonic.dll
