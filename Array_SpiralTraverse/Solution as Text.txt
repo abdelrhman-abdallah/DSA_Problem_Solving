@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+
+public class Program {
+  public static List<int> SpiralTraverse(int[,] array) {
+    int rowStrtIdx = 0;
+    int colStrtIdx = 0;
+    int rowEndIdx = array.GetLength(0)-1;
+    int colEndIdx = array.GetLength(1)-1;
+
+    List<int> spirallyTraversedArrayResult = new List<int>();
+    while (rowStrtIdx <= rowEndIdx && colStrtIdx <= colEndIdx) 
+    {
+        for (int col = colStrtIdx; col <= colEndIdx; col++)
+        {
+            spirallyTraversedArrayResult.Add(array[rowStrtIdx, col]);
+        }
+        for (int row = rowStrtIdx +1; row <= rowEndIdx; row++) 
+        {
+            spirallyTraversedArrayResult.Add(array[row,colEndIdx]);
+        }
+        for (int col = colEndIdx -1; col >= colStrtIdx; col--)
+        {
+            if (rowStrtIdx == rowEndIdx) { break; }
+            spirallyTraversedArrayResult.Add(array[rowEndIdx, col]);
+        }
+        for (int row = rowEndIdx-1; row >rowStrtIdx ; row--)
+        {
+            if (colStrtIdx == colEndIdx) { break; }
+            spirallyTraversedArrayResult.Add(array[row, colStrtIdx]);
+        }
+        rowEndIdx--;
+        rowStrtIdx++;
+        colStrtIdx++;
+        colEndIdx--;
+    }
+        
+ return spirallyTraversedArrayResult;
+  }
+}
