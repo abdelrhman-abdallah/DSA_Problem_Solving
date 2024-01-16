@@ -1,0 +1,34 @@
+using System;
+
+public class Program {
+  public static int LongestPeak(int[] array) {
+    int longestPeakLength = 0;
+    int i = 1;
+    while (i < array.Length - 1) 
+    {
+        bool isCurrAPeak = array[i] > array[i-1] && array[i] > array[i+1];
+        if (!isCurrAPeak) 
+        { 
+            i++;
+            continue;
+        };
+        int leftIdx = i - 1;
+        while (leftIdx > 0 && array[leftIdx] > array[leftIdx-1])
+        {
+            leftIdx--;
+        }
+        int rightIdx = i + 1;
+        while (rightIdx< array.Length -1 && array[rightIdx] > array[rightIdx+1])
+        {
+            rightIdx++;
+        }
+        int currPeaklength = rightIdx- leftIdx +1;
+        if (currPeaklength > longestPeakLength)
+        {
+            longestPeakLength = currPeaklength;
+        }
+        i = rightIdx;
+    }
+    return longestPeakLength;
+  }
+}
