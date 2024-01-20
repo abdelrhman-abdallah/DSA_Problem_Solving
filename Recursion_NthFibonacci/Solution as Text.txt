@@ -1,0 +1,73 @@
+//Recursive Solution 
+//Time Complexity O(2^n) Space Complexity O(n)(draw the functions call stack to illustrate it)
+
+using System;
+
+public class Program {
+  public static int GetNthFib(int n) {
+	if (n <= 1){
+		return 0;
+	}
+	else if (n == 2){
+		return 1;
+	}
+	else{
+		return GetNthFib(n - 1) + GetNthFib(n - 2);
+	}
+  }
+}
+
+
+//Recursive Solution With Caching (hashtable)
+//Time Complexitty O(n) Space Complexity O(n) (a hastable and the function's call stack due to recursion)
+
+using System;
+using System.Collections;
+public class Program {
+  public static int GetNthFib(int n) {
+	Hashtable cacheFibs = new Hashtable();
+	cacheFibs.Add(1, 0);
+	cacheFibs.Add(2, 1);
+	if (cacheFibs.ContainsKey(n))
+	{
+		return Convert.ToInt32(cacheFibs[n]);
+	}
+	else
+	{
+
+		cacheFibs[n] = GetNthFib(n-1) + GetNthFib(n-2);
+		return Convert.ToInt32(cacheFibs[n]);
+	}
+  }
+}
+
+//Iterative Solution
+//Time Complexity O(n) Space Complexity O(1)
+
+using System;
+
+public class Program {
+  public static int GetNthFib(int n) {
+	if (n==1)
+	{
+		return 0;
+	}
+	else if (n==2)
+	{
+		return 1;
+	}
+	else
+	{
+        int counter = 3;
+        int[] lastTwoFibs = { 0, 1 };
+        while (counter < n)
+        {
+            int next = lastTwoFibs[0] + lastTwoFibs[1];
+            lastTwoFibs[0] = lastTwoFibs[1];
+            lastTwoFibs[1] = next;
+            counter++;
+        }
+        return lastTwoFibs[0] + lastTwoFibs[1];
+    }
+  }
+}
